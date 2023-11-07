@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import { Skills } from './skills/Skills';
+import { Infos } from './infos/Infos';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+       <div className='flex ' style={{ margin: '0px', padding: '0px' }}  >
+       
+         <Infos/>
+          <Skills/>
+
+         </div>
+         <hr/>
+         &lt;&lt;&lt; &copy zouhir charkaoui and jihane labriki &gt;&gt;&gt;
+         <hr/>
+         <h4><mark>The link of forum :</mark></h4> <br/>
+         <a href=""></a>
+      </div>
+   
   );
 }
 
